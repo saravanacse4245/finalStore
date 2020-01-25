@@ -1,0 +1,43 @@
+
+
+  <div class="sidebar" data-color="purple" data-background-color="white" data-image="../assets/img/sidebar-2.jpg">
+    <!--
+      Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
+
+      Tip 2: you can also add an image using data-image tag
+  -->
+    <div class="logo">
+   
+      <span class="simple-text logo-normal">
+        <img src="./assets/img/logo.png" style="
+        height: 25px;
+    " >     Amirtha Super Store
+      </span>
+    </div>
+    <div class="sidebar-wrapper">
+      <ul class="nav">
+        <li class="nav-item " routerLink="/home" (click)="menuClik()"  routerLinkActive="active" >
+          <a class="nav-link" >
+            <i class="material-icons">dashboard</i>
+            <p>Home</p>
+          </a>
+        </li>
+        <li class="nav-item " routerLink="/product"
+         (click)="menuClik()" routerLinkActive="active" >
+          <a class="nav-link" >
+            <i class="material-icons">library_books</i>
+            <p>Product</p>
+          </a>
+        </li>
+        <li class="nav-item " routerLink="/map"
+        (click)="menuClik()" routerLinkActive="active" >
+         <a class="nav-link" >
+           <i class="material-icons">location_ons</i>
+           <p>Map</p>
+         </a>
+       </li>
+
+      </ul>
+
+    </div>
+  </div>

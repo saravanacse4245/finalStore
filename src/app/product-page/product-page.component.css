@@ -1,0 +1,17 @@
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 280px;
+    width: 320px;
+}  
+.myImg:hover {opacity: 0.7;}
+
+.myImgHeight {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 320px;
+    width: 320px;
+}  
+.myImgHeight:hover {opacity: 0.7;}

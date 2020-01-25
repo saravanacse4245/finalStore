@@ -1,0 +1,16 @@
+.picsum-img-wrapper{
+    padding: 15px 12px;
+    box-sizing: border-box;
+    max-width: 800px;
+    max-height: 550px;
+    min-width: 300px;
+    min-height: 500px;
+    position: relative;
+} 
+
+.slide img{
+    height: 90%;
+    min-width: 100%;
+    max-width: 100%;
+    position: absolute;
+}
